@@ -1,0 +1,102 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgb(157, 231, 253), rgb(180, 248, 140));
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form
+{
+    background-color: #20b2ab;
+    min-width: 101%;
+    min-height: 8.2%;
+}
+
+.menu li 
+{
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #20b2ab;
+}
+
+.menu a 
+{
+  padding: 18px 0;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+.menu li:hover, a:hover 
+{
+  background-color: #0c5753;
+}
+
+.navbar li:hover ul 
+{
+  display: block;
+}
+
+.nom 
+{
+    padding: 45px;
+    border: none;
+    font-size: xx-large;
+    color: #a9e9e6;
+    text-shadow: 3px 3px 5px #0c5753;
+}
+
+table 
+{
+  border: medium solid #20b2ab;
+  border-collapse: collapse;
+  width: 50%;
+  
+}
+  
+th 
+{
+  font-family: monospace;
+  border: thin solid #20b2ab;
+  width: 50%;
+  padding: 5px;
+  background-color: #a9e9e6;
+}
+  
+td 
+{
+  font-family: sans-serif;
+  border: thin solid #20b2ab;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color: #a9e9e6;
+}
+  
+
+button
+{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #20b2ab;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #0c5753;
+    color: rgb(255, 255, 255);
+}

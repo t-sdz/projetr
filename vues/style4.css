@@ -1,0 +1,15 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, rgb(157, 231, 253), rgb(180, 248, 140));
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table th,td
+{
+    padding: 45%;
+ border: 1px solid;
+}

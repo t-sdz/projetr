@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css">
+        <title>Note</title>
+    </head>
+    <body>
+        <div class="form">
+            <ul class = "menu">
+                <li>
+                    <a href ="note.php">Note</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+            <center>
+                <form action="/modeles2/EXO1_note.php" method="post">
+                    <table>
+                        <tr> 
+                            <th>
+                                id_eleve
+                                <input type="text" name="id_eleve" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Nom
+                                <input type="text" name="nom" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Prenom
+                                <input type="text" name="prenom" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Matiere
+                                <input type="text" name="matiere" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Note
+                                <input type="text" name="note" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Coefficient
+                                <input type="text" name="coeff" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Date
+                                <input type="date" name="date_eval" size="15" maxlength="32" />
+                            </th>
+                            <th>
+                                Appreciation
+                                <input type="text" name="appreciation" size="15" maxlength="32" />
+                            </th>
+                        </tr>
+                    </table>
+                    <BR>
+                    <button type="submit" name="soumettre" href="note.php">
+                        <strong>
+                            VALIDER
+                        </strong>
+                    </button>
+                </form>
+            </center>                
+        </div>
+    </body>
+</html>
